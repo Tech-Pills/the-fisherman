@@ -1,0 +1,9 @@
+dist
+build
+docs
+node_modules
+*.md
+coverage
+.vscode
+.git
+patches

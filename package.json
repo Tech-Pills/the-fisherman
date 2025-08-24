@@ -22,6 +22,8 @@
     "check": "tsc -b tsconfig.json",
     "lint": "eslint \"**/{src,test,examples,scripts,dtslint}/**/*.{ts,mjs}\"",
     "lint-fix": "pnpm lint --fix",
+    "format": "prettier --write \"**/*.{ts,js,mjs,json}\"",
+    "format-check": "prettier --check \"**/*.{ts,js,mjs,json}\"",
     "test": "vitest",
     "coverage": "vitest --coverage",
     "changeset-version": "changeset version && node scripts/version.mjs",
@@ -54,6 +56,7 @@
     "eslint-plugin-import": "^2.30.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-sort-destructure-keys": "^2.0.0",
+    "prettier": "^3.6.2",
     "tsx": "^4.17.0",
     "typescript": "^5.6.2",
     "vitest": "^3.2.0"
