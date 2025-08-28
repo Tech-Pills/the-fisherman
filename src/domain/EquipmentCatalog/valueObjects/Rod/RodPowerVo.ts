@@ -1,6 +1,6 @@
 import type { Brand } from "effect"
 import { Data, Schema } from "effect"
-import { type RodAction } from "./RodAction.vo.js"
+import { type RodAction } from "./RodActionVo.js"
 
 type TestStrength = number & Brand.Brand<"TestStrength">
 const TestStrength = Schema.Number.pipe(

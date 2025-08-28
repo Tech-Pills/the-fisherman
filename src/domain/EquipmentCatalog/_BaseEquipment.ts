@@ -1,6 +1,6 @@
 import { type Brand, Schema } from "effect"
 
-import { ManufacturerInfo } from "./valueObjects/ManufacturerInfo.vo.js"
+import { ManufacturerInfo } from "./valueObjects/ManufacturerInfoVo.js"
 
 type EquipmentId = string & Brand.Brand<"EquipmentId">
 const EquipmentId = Schema.String.pipe(Schema.brand("EquipmentId"))
