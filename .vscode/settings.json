@@ -3,4 +3,19 @@
     "typescript.enablePromptUseWorkspaceTsdk": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#4093ff",
+        "activityBar.background": "#2D2F10",
+        "titleBar.activeBackground": "#3F4216",
+        "titleBar.activeForeground": "#FAFBF3"
+    },
 }
